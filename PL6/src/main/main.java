@@ -10,7 +10,9 @@ public class main {
 		
 		//ex4.ex4.main();
 		
-		ex5.ex5.main();
+		//ex5.ex5.main();
+		
+		ex6.ex6.main();
 
 	}
 
