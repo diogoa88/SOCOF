@@ -1,7 +1,0 @@
-a) Sim, a segunda thread só sai do Do While interna, quando a primeira Thread fizer unlock
-
-b) Se invocarmos as 2 ao mesmo tempo, elas podem estar na linha 10 ao mesmo tempo. 
-
-C) Se invocarmos as 2 ao mesmo tempo, elas podem estar na linha 10 ao mesmo tempo e posteriormente 
-    podem ficar presas na linha 8.
- 
