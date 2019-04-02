@@ -1,0 +1,43 @@
+package pl5;
+
+import java.util.concurrent.atomic.AtomicReference;
+
+public class LockFreeQueue<T> {
+
+	public AtomicReference<Node<T>> head;
+	public AtomicReference<Node<T>> tail;
+
+	public LockFreeQueue() {
+		Node<T> sentinel = new Node<T>(null);
+		head = new AtomicReference<Node<T>>(sentinel);
+		tail = new AtomicReference<Node<T>>(sentinel);
+	}
+
+	public void push(Node<T> newNode) {
+		Node<T> newHead;
+		do {
+			newHead = this.tail.get();
+			
+			this.tail = new AtomicReference<Node<T>>(newNode);
+		} while (!tail.compareAndSet(newHead, newNode));
+
+	}
+
+	public Node<T> pop() {
+		Node<T> nodeToRemove = this.head.get();
+		Node<T> nextNode = nodeToRemove.next.get();
+		this.head = new AtomicReference<Node<T>>(nextNode);
+		return nodeToRemove;
+	}
+
+	public void print() {
+		String res = "";
+		Node<T> node = this.head.get();
+		while (node != null) {
+			node = node.next.get();
+			if (node != null)
+				res += node.value.toString() + " ";
+		}
+		System.out.println(res);
+	}
+}

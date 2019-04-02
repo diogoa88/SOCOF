@@ -1,0 +1,7 @@
+package pl5;
+
+public class Aux {
+	
+	public int i;
+
+}

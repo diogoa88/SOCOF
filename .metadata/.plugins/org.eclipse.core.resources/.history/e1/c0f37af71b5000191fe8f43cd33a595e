@@ -1,0 +1,29 @@
+package pl5;
+
+public class main {
+	
+	public int i;
+
+	public static void main(String[] args) {
+		
+		LockFreeQueue<Integer> queue = new LockFreeQueue<Integer>();
+		int i;
+		for(i = 0; i<10; i++) {
+			new Thread() {
+				@Override
+				public void run() {
+					Node<Integer> n = new Node<Integer>(this.i);
+					queue.push(n);			
+				}
+			};
+		}
+
+		queue.print();
+		
+		queue.pop();
+		
+		queue.print();
+		
+	}
+
+}

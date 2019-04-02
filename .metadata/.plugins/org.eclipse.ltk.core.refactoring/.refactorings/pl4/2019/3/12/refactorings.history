@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;res&apos; in &apos;Ex2.Ex2.Execute()&apos; to &apos;future&apos;&#x0A;- Original project: &apos;pl4&apos;&#x0A;- Original element: &apos;Ex2.Ex2.Execute().res&apos;&#x0A;- Renamed element: &apos;res&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;res&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Ex2{Ex2.java[Ex2~Execute@res!436!455!452!454!QFuture\&lt;QInteger;&gt;;!0!false" name="future" references="true" stamp="1553037041635" version="1.0"/>
+</session>

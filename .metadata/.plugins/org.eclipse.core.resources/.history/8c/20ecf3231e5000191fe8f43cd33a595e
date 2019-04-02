@@ -1,0 +1,21 @@
+package pl5;
+
+public class main {
+	
+	public static void main(String[] args) {
+		
+		LockFreeQueue<Integer> queue = new LockFreeQueue<Integer>();
+		
+		for(int i = 0; i<10; i++) {
+			new Aux(i, queue).start();
+		}
+
+		queue.print();
+		
+		queue.pop();
+		
+		queue.print();
+		
+	}
+
+}

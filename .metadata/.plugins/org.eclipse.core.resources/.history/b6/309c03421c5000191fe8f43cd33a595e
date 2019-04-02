@@ -1,0 +1,11 @@
+package pl5;
+
+public class Aux extends Thread{
+	
+	public int i;
+	
+	public LockFreeQueue<Integer> queue;
+	
+	
+
+}
