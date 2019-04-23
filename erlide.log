@@ -1,0 +1,1653 @@
+21:53:58,516 I: (ErlangCore.java:63) : Starting CORE Thread[main,6,main]
+21:53:58,520 I: (ErlangCore.java:73) : *** starting Erlide v0.55.0.201901051528~0.55.0.201805231952 (model api=0.55.0.201805231952) (kernel=?~0.115.3.201806041948) *** (UTF-8)
+21:53:58,523 I: (ErlangCore.java:80) : Started CORE
+21:53:58,524 F: (ErlangPlugin.java:89) : Core started
+21:53:59,371 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+21:53:59,374 F: (BackendFactory.java:47) : Create build backend 20
+21:53:59,374 F: (BackendFactory.java:54) : Create backend 20_afe5b_user_fa0bce
+21:53:59,376 F: (OtpNodeProxy.java:426) : START node :> [/usr/lib/erlang/bin/erl, -name, 20_afe5b_user_fa0bce@127.0.0.1, -setcookie, erlide] *** /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF
+21:53:59,376 F: (OtpNodeProxy.java:306) : Runtime 20_afe5b_user_fa0bce@127.0.0.1 starting
+21:53:59,381 F: (OtpNodeProxy.java:213) : 20_afe5b_user_fa0bce@127.0.0.1: waiting connection to peer... 
+21:54:00,223 F: (OtpNodeProxy.java:220) : connected!
+21:54:00,325 F: (OtpNodeProxy.java:311) : Runtime 20_afe5b_user_fa0bce@127.0.0.1 running
+21:54:00,379 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_bfa0bd3@127.0.0.1'}
+21:54:00,379 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+21:54:01,734 I: (InternalBuilder.java:375) : project configuration changed: doing full rebuild
+21:54:01,735 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+21:54:02,394 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+21:54:03,391 F: (InternalBuilder.java:206) : Will compile 5 resource(s)
+21:54:40,287 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/pl7/src/ex1.erl]
+21:54:40,437 F: (BackendManager.java:87) : create execution backend pl7
+21:54:40,529 F: (BackendFactory.java:54) : Create backend pl7
+21:54:40,533 F: (OtpNodeProxy.java:426) : START node :> [/usr/lib/erlang/bin/erl, -sname, pl7@user, -setcookie, erlide] *** /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/pl7
+21:54:40,533 F: (OtpNodeProxy.java:306) : Runtime pl7@user starting
+21:54:40,537 F: (OtpNodeProxy.java:213) : pl7@user: waiting connection to peer... 
+21:54:40,954 F: (OtpNodeProxy.java:220) : connected!
+21:54:41,055 F: (OtpNodeProxy.java:311) : Runtime pl7@user running
+21:54:41,172 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_bfaac98@user}
+21:54:41,173 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+21:54:41,555 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@52cb399d
+21:54:41,627 F: (ErlangLaunchDelegate.java:117) : Started erts: pl7 >> pl7
+22:01:32,066 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:02:05,423 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:02:14,263 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:05:33,082 W: (AbstractErlContentAssistProcessor.java:165) : null
+java.lang.UnsupportedOperationException
+	at java.base/java.util.AbstractList.add(AbstractList.java:153)
+	at java.base/java.util.AbstractList.add(AbstractList.java:111)
+	at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:352)
+	at org.erlide.ui.editors.erl.completion.AbstractErlContentAssistProcessor.computeCompletionProposals(AbstractErlContentAssistProcessor.java:155)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2014)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4777)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2013)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2010)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:575)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:500)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1824)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:978)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1461)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1764)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:05:34,656 W: (AbstractErlContentAssistProcessor.java:165) : null
+java.lang.UnsupportedOperationException
+	at java.base/java.util.AbstractList.add(AbstractList.java:153)
+	at java.base/java.util.AbstractList.add(AbstractList.java:111)
+	at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:352)
+	at org.erlide.ui.editors.erl.completion.AbstractErlContentAssistProcessor.computeCompletionProposals(AbstractErlContentAssistProcessor.java:155)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2014)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4777)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2013)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2010)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:575)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:500)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1824)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:978)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1461)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1764)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:05:48,597 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:06:30,497 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:07:08,491 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:07:08,555 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:07:14,596 F: (ErlParser.java:335) : unknown: other
+22:07:16,475 F: (ErlParser.java:335) : unknown: other
+22:07:17,185 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:07:31,948 F: (ErlParser.java:335) : unknown: other
+22:07:32,218 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:07:34,706 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:07:37,836 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:08:15,592 F: (ErlParser.java:335) : unknown: other
+22:08:16,890 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:08:25,080 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:08:32,404 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:08:44,472 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:09:00,149 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/PL8/src/ex1.erl]
+22:09:00,224 F: (BackendManager.java:87) : create execution backend PL8
+22:09:00,224 F: (BackendFactory.java:54) : Create backend PL8
+22:09:00,238 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:09:00,243 F: (OtpNodeProxy.java:426) : START node :> [/usr/lib/erlang/bin/erl, -sname, PL8@user, -setcookie, erlide] *** /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8
+22:09:00,247 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:09:00,683 F: (OtpNodeProxy.java:220) : connected!
+22:09:00,864 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:09:00,864 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c07cad6@user}
+22:09:00,865 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:09:01,286 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@2418ffcc
+22:09:01,313 F: (ErlangLaunchDelegate.java:117) : Started erts: PL8 >> PL8
+22:09:14,362 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:09:14,362 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:09:31,734 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:11:18,086 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:11:18,150 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:11:18,174 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:11:21,401 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:11:21,415 F: (BackendManager.java:87) : create execution backend PL8
+22:11:21,415 F: (BackendFactory.java:54) : Create backend PL8
+22:11:21,416 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:11:21,416 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:11:21,421 F: (OtpNodeProxy.java:220) : connected!
+22:11:21,523 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:11:21,598 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c09f248@user}
+22:11:22,023 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@164ee145
+22:11:29,078 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:11:29,586 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:12:23,656 F: (ErlParser.java:335) : unknown: other
+22:12:24,090 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:12:24,181 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:12:24,223 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:13:09,840 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/PL8/src/ex1.erl]
+22:13:09,882 F: (BackendManager.java:87) : create execution backend PL8
+22:13:09,882 F: (BackendFactory.java:54) : Create backend PL8
+22:13:09,884 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:13:09,885 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:13:09,898 F: (OtpNodeProxy.java:220) : connected!
+22:13:10,073 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:13:10,074 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c0b99fc@user}
+22:13:10,499 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@5b2dd3c
+22:13:14,918 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:13:16,268 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:14:07,982 F: (ErlParser.java:335) : unknown: other
+22:14:08,697 F: (ErlParser.java:335) : unknown: other
+22:14:09,616 F: (ErlParser.java:335) : unknown: other
+22:14:13,077 F: (ErlParser.java:335) : unknown: other
+22:14:14,118 F: (ErlParser.java:335) : unknown: other
+22:14:15,051 F: (ErlParser.java:335) : unknown: other
+22:14:16,841 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:14:16,905 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:14:16,928 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:16,970 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:17,013 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:19,625 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:14:19,648 F: (BackendManager.java:87) : create execution backend PL8
+22:14:19,648 F: (BackendFactory.java:54) : Create backend PL8
+22:14:19,649 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:14:19,650 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:14:19,652 F: (OtpNodeProxy.java:220) : connected!
+22:14:19,752 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:14:19,827 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c0caa81@user}
+22:14:20,252 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@e0e9e5e
+22:14:25,460 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:14:48,892 F: (ErlParser.java:335) : unknown: other
+22:14:49,319 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:14:49,382 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:14:49,405 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:49,456 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:49,499 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:49,541 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:14:51,583 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:14:51,613 F: (BackendManager.java:87) : create execution backend PL8
+22:14:51,613 F: (BackendFactory.java:54) : Create backend PL8
+22:14:51,615 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:14:51,616 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:14:51,626 F: (OtpNodeProxy.java:220) : connected!
+22:14:51,728 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:14:51,798 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c0d275f@user}
+22:14:52,228 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@7f0e9ace
+22:15:37,891 F: (ErlParser.java:335) : unknown: other
+22:15:39,545 F: (ErlParser.java:335) : unknown: other
+22:15:41,263 F: (ErlParser.java:335) : unknown: other
+22:15:43,231 F: (ErlParser.java:335) : unknown: other
+22:15:43,791 F: (ErlParser.java:335) : unknown: other
+22:15:44,474 F: (ErlParser.java:335) : unknown: other
+22:15:52,001 F: (ErlParser.java:335) : unknown: other
+22:15:54,528 F: (ErlParser.java:335) : unknown: other
+22:15:55,051 F: (ErlParser.java:335) : unknown: other
+22:15:55,995 F: (ErlParser.java:335) : unknown: other
+22:17:19,383 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:17:19,833 F: (ErlParser.java:335) : unknown: other
+22:17:21,740 F: (ErlParser.java:335) : unknown: other
+22:17:24,872 F: (ErlParser.java:335) : unknown: other
+22:17:29,890 F: (ErlParser.java:335) : unknown: other
+22:17:30,969 F: (ErlParser.java:335) : unknown: other
+22:17:32,016 F: (ErlParser.java:335) : unknown: other
+22:17:34,733 F: (ErlParser.java:335) : unknown: other
+22:17:35,630 F: (ErlParser.java:335) : unknown: other
+22:17:37,286 F: (ErlParser.java:335) : unknown: other
+22:18:05,360 F: (ErlParser.java:335) : unknown: other
+22:18:09,233 F: (ErlParser.java:335) : unknown: other
+22:18:10,186 F: (ErlParser.java:335) : unknown: other
+22:18:12,105 F: (ErlParser.java:335) : unknown: other
+22:18:12,633 F: (ErlParser.java:335) : unknown: other
+22:18:13,853 F: (ErlParser.java:335) : unknown: other
+22:18:22,040 F: (ErlParser.java:335) : unknown: other
+22:18:22,629 F: (ErlParser.java:335) : unknown: other
+22:18:23,076 F: (ErlParser.java:335) : unknown: other
+22:18:23,709 F: (ErlParser.java:335) : unknown: other
+22:18:24,569 F: (ErlParser.java:335) : unknown: other
+22:18:28,785 F: (ErlParser.java:335) : unknown: other
+22:18:32,720 F: (ErlParser.java:335) : unknown: other
+22:18:51,148 F: (ErlParser.java:335) : unknown: other
+22:18:53,612 F: (ErlParser.java:335) : unknown: other
+22:18:54,198 F: (ErlParser.java:335) : unknown: other
+22:18:54,936 F: (ErlParser.java:335) : unknown: other
+22:18:56,012 F: (ErlParser.java:335) : unknown: other
+22:18:57,422 F: (ErlParser.java:335) : unknown: other
+22:18:58,571 F: (ErlParser.java:335) : unknown: other
+22:18:59,887 F: (ErlParser.java:335) : unknown: other
+22:19:02,133 F: (ErlParser.java:335) : unknown: other
+22:19:04,776 F: (ErlParser.java:335) : unknown: other
+22:19:06,201 F: (ErlParser.java:335) : unknown: other
+22:19:07,395 F: (ErlParser.java:335) : unknown: other
+22:19:13,858 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:19:13,949 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:13,992 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:14,036 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:14,078 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:14,121 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:22,230 F: (ErlParser.java:335) : unknown: other
+22:19:23,307 F: (ErlParser.java:335) : unknown: other
+22:19:24,623 F: (ErlParser.java:335) : unknown: other
+22:19:25,698 F: (ErlParser.java:335) : unknown: other
+22:19:30,461 F: (ErlParser.java:335) : unknown: other
+22:19:33,821 F: (ErlParser.java:335) : unknown: other
+22:19:33,821 F: (ErlParser.java:335) : unknown: other
+22:19:34,518 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:19:34,592 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:19:34,617 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:34,659 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:34,704 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:34,748 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:19:34,793 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:20:08,857 F: (ErlParser.java:335) : unknown: other
+22:20:09,993 F: (ErlParser.java:335) : unknown: other
+22:20:13,930 F: (ErlParser.java:335) : unknown: other
+22:20:15,919 F: (ErlParser.java:335) : unknown: other
+22:20:17,560 F: (ErlParser.java:335) : unknown: other
+22:20:35,900 F: (ErlParser.java:335) : unknown: other
+22:20:36,761 F: (ErlParser.java:335) : unknown: other
+22:20:39,895 F: (ErlParser.java:335) : unknown: other
+22:20:42,874 F: (ErlParser.java:335) : unknown: other
+22:20:44,356 F: (ErlParser.java:335) : unknown: other
+22:20:45,866 F: (ErlParser.java:335) : unknown: other
+22:20:47,312 F: (ErlParser.java:335) : unknown: other
+22:20:54,703 F: (ErlParser.java:335) : unknown: other
+22:20:55,139 F: (ErlParser.java:335) : unknown: other
+22:20:55,798 F: (ErlParser.java:335) : unknown: other
+22:20:57,519 F: (ErlParser.java:335) : unknown: other
+22:21:02,426 F: (ErlParser.java:335) : unknown: other
+22:21:03,341 F: (ErlParser.java:335) : unknown: other
+22:21:05,479 F: (ErlParser.java:335) : unknown: other
+22:21:06,140 F: (ErlParser.java:335) : unknown: other
+22:21:06,962 F: (ErlParser.java:335) : unknown: other
+22:21:08,303 F: (ErlParser.java:335) : unknown: other
+22:21:09,550 F: (ErlParser.java:335) : unknown: other
+22:21:10,095 F: (ErlParser.java:335) : unknown: other
+22:21:12,319 F: (ErlParser.java:335) : unknown: other
+22:21:15,398 F: (ErlParser.java:335) : unknown: other
+22:21:16,095 F: (ErlParser.java:335) : unknown: other
+22:21:19,731 F: (ErlParser.java:335) : unknown: other
+22:21:20,149 F: (ErlParser.java:335) : unknown: other
+22:21:21,727 F: (ErlParser.java:335) : unknown: other
+22:21:23,364 F: (ErlParser.java:335) : unknown: other
+22:21:28,883 F: (ErlParser.java:335) : unknown: other
+22:21:30,620 F: (ErlParser.java:335) : unknown: other
+22:21:31,662 F: (ErlParser.java:335) : unknown: other
+22:21:34,263 F: (ErlParser.java:335) : unknown: other
+22:21:35,145 F: (ErlParser.java:335) : unknown: other
+22:21:35,893 F: (ErlParser.java:335) : unknown: other
+22:21:36,740 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:21:38,488 F: (ErlParser.java:335) : unknown: other
+22:21:40,872 F: (ErlParser.java:335) : unknown: other
+22:21:43,811 F: (ErlParser.java:335) : unknown: other
+22:21:46,776 F: (ErlParser.java:335) : unknown: other
+22:21:50,567 F: (ErlParser.java:335) : unknown: other
+22:21:51,794 F: (ErlParser.java:335) : unknown: other
+22:21:56,443 F: (ErlParser.java:335) : unknown: other
+22:21:57,552 F: (ErlParser.java:335) : unknown: other
+22:21:58,463 F: (ErlParser.java:335) : unknown: other
+22:21:58,463 F: (ErlParser.java:335) : unknown: other
+22:22:00,728 F: (ErlParser.java:335) : unknown: other
+22:22:00,728 F: (ErlParser.java:335) : unknown: other
+22:22:00,938 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:23:12,859 F: (ErlParser.java:335) : unknown: other
+22:23:14,551 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:23:22,738 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:23:22,758 F: (BackendManager.java:87) : create execution backend PL8
+22:23:22,758 F: (BackendFactory.java:54) : Create backend PL8
+22:23:22,759 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:23:22,759 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:23:22,782 F: (OtpNodeProxy.java:220) : connected!
+22:23:22,884 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:23:22,962 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c14f407@user}
+22:23:23,385 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@2a8dfdf7
+22:23:32,552 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:23:32,553 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:23:58,271 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:24:10,822 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:24:17,391 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/PL8/src/ex1.erl]
+22:24:17,403 F: (BackendManager.java:87) : create execution backend PL8
+22:24:17,403 F: (BackendFactory.java:54) : Create backend PL8
+22:24:17,404 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:24:17,405 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:24:17,410 F: (OtpNodeProxy.java:220) : connected!
+22:24:17,585 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:24:17,585 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c15c97c@user}
+22:24:18,011 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@1a9660c9
+22:24:36,165 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:24:36,232 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:36,277 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:36,322 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:36,367 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:36,411 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:36,453 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:36,495 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:24:47,566 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:24:47,588 F: (BackendManager.java:87) : create execution backend PL8
+22:24:47,588 F: (BackendFactory.java:54) : Create backend PL8
+22:24:47,589 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:24:47,590 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:24:47,595 F: (OtpNodeProxy.java:220) : connected!
+22:24:47,698 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:24:47,772 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c163f65@user}
+22:24:48,198 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@7015e045
+22:24:48,340 F: (BackendManager.java:87) : create execution backend PL8
+22:24:48,340 F: (BackendFactory.java:54) : Create backend PL8
+22:24:48,342 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:24:48,345 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:24:48,348 F: (OtpNodeProxy.java:220) : connected!
+22:24:48,350 F: (BackendManager.java:87) : create execution backend PL8
+22:24:48,513 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:24:48,514 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c164256@user}
+22:24:48,948 F: (BackendFactory.java:54) : Create backend PL8
+22:24:48,948 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@2435df65
+22:24:48,949 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:24:48,950 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:24:48,954 F: (OtpNodeProxy.java:220) : connected!
+22:24:49,120 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:24:49,120 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c1644b5@user}
+22:24:49,555 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@3ceea5c3
+22:24:56,705 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:25:05,226 S: (RuntimeHelper.java:49) : Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+org.erlide.runtime.rpc.RpcException: Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:155)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:168)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:242)
+	at org.erlide.engine.services.parsing.RuntimeHelper.parseConsoleInput(RuntimeHelper.java:47)
+	at org.erlide.ui.console.ErlangConsolePage.isInputComplete(ErlangConsolePage.java:159)
+	at org.erlide.ui.console.ErlangConsolePage$4.modifyText(ErlangConsolePage.java:266)
+	at org.erlide.ui.console.ErlangConsolePage$5.caretMoved(ErlangConsolePage.java:279)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:101)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1196)
+	at org.eclipse.swt.custom.StyledText.setCaretOffset(StyledText.java:8795)
+	at org.eclipse.swt.custom.StyledText.setSelection(StyledText.java:9976)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7415)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8274)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2503)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6057)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendIMKeyEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Control.gtk_commit(Control.java:3637)
+	at org.eclipse.swt.widgets.Canvas.gtk_commit(Canvas.java:168)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2188)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_im_context_filter_keypress(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_im_context_filter_keypress(GTK.java:3451)
+	at org.eclipse.swt.widgets.Control.filterKey(Control.java:2801)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3928)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:25:13,896 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/PL8/src/ex1.erl]
+22:25:13,937 F: (BackendManager.java:87) : create execution backend PL8
+22:25:13,937 F: (BackendFactory.java:54) : Create backend PL8
+22:25:13,939 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:25:13,954 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:25:13,978 F: (OtpNodeProxy.java:220) : connected!
+22:25:14,147 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:25:14,148 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c16a654@user}
+22:25:14,580 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@5359e290
+22:25:55,398 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:25:55,399 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:26:12,288 F: (BackendManager.java:87) : create execution backend PL8
+22:26:12,288 F: (BackendFactory.java:54) : Create backend PL8
+22:26:12,294 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:26:12,295 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:26:12,300 F: (OtpNodeProxy.java:220) : connected!
+22:26:12,401 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:26:12,472 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c178a46@user}
+22:26:12,901 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@2beb2691
+22:26:17,937 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:26:36,178 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:27:07,942 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:27:56,048 F: (OtpNodeProxy.java:316) : Runtime PL8@user stopping
+22:27:56,056 F: (OtpNodeProxy.java:272) : Runtime PL8@user terminated
+22:29:16,930 F: (ErlParser.java:335) : unknown: other
+22:29:17,881 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:29:17,958 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:29:17,983 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,026 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,071 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,116 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,163 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,206 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,251 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,296 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,340 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,386 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:29:18,430 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,484 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:36:12,607 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,653 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,696 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,739 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,783 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,826 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,872 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,917 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:12,959 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:13,002 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:13,047 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:36:55,858 F: (BackendManager.java:87) : create execution backend PL8
+22:36:55,858 F: (BackendFactory.java:54) : Create backend PL8
+22:36:55,859 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:36:55,861 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:36:55,870 F: (OtpNodeProxy.java:220) : connected!
+22:36:56,042 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:36:56,043 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c215c34@user}
+22:36:56,043 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:36:56,474 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@4ff2ac65
+22:37:06,984 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:37:06,984 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:37:20,134 S: (RuntimeHelper.java:49) : Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+org.erlide.runtime.rpc.RpcException: Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:155)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:168)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:242)
+	at org.erlide.engine.services.parsing.RuntimeHelper.parseConsoleInput(RuntimeHelper.java:47)
+	at org.erlide.ui.console.ErlangConsolePage.isInputComplete(ErlangConsolePage.java:159)
+	at org.erlide.ui.console.ErlangConsolePage$4.modifyText(ErlangConsolePage.java:266)
+	at org.erlide.ui.console.ErlangConsolePage$5.caretMoved(ErlangConsolePage.java:279)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:101)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1196)
+	at org.eclipse.swt.custom.StyledText.setCaretOffset(StyledText.java:8795)
+	at org.eclipse.swt.custom.StyledText.setSelection(StyledText.java:9976)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7415)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8274)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2503)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6057)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendIMKeyEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Control.gtk_commit(Control.java:3637)
+	at org.eclipse.swt.widgets.Canvas.gtk_commit(Canvas.java:168)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2188)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_im_context_filter_keypress(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_im_context_filter_keypress(GTK.java:3451)
+	at org.eclipse.swt.widgets.Control.filterKey(Control.java:2801)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3928)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:37:21,036 S: (RuntimeHelper.java:49) : Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+org.erlide.runtime.rpc.RpcException: Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:155)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:168)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:242)
+	at org.erlide.engine.services.parsing.RuntimeHelper.parseConsoleInput(RuntimeHelper.java:47)
+	at org.erlide.ui.console.ErlangConsolePage.isInputComplete(ErlangConsolePage.java:159)
+	at org.erlide.ui.console.ErlangConsolePage$4.modifyText(ErlangConsolePage.java:266)
+	at org.erlide.ui.console.ErlangConsolePage$5.caretMoved(ErlangConsolePage.java:279)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:101)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1196)
+	at org.eclipse.swt.custom.StyledText.setCaretOffset(StyledText.java:8795)
+	at org.eclipse.swt.custom.StyledText.setSelection(StyledText.java:9976)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7415)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8274)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2503)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6057)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:37:21,059 S: (RuntimeHelper.java:49) : Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+org.erlide.runtime.rpc.RpcException: Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:155)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:168)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:242)
+	at org.erlide.engine.services.parsing.RuntimeHelper.parseConsoleInput(RuntimeHelper.java:47)
+	at org.erlide.ui.console.ErlangConsolePage.isInputComplete(ErlangConsolePage.java:159)
+	at org.erlide.ui.console.ErlangConsolePage$6.keyPressed(ErlangConsolePage.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:171)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:37:26,136 S: (RuntimeHelper.java:49) : Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+org.erlide.runtime.rpc.RpcException: Bad RPC: {badrpc,{'EXIT',{{badmatch,{error,{1,erl_parse,["syntax error before: ","'.'"]}}},[{erlide_backend,'-parse_string/1-fun-0-',1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,105}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{erlide_backend,parse_string,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/common/_build/default/lib/erlide_common/src/erlide_backend.erl"},{line,108}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}}}
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:155)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:168)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:242)
+	at org.erlide.engine.services.parsing.RuntimeHelper.parseConsoleInput(RuntimeHelper.java:47)
+	at org.erlide.ui.console.ErlangConsolePage.isInputComplete(ErlangConsolePage.java:159)
+	at org.erlide.ui.console.ErlangConsolePage$4.modifyText(ErlangConsolePage.java:266)
+	at org.erlide.ui.console.ErlangConsolePage$5.caretMoved(ErlangConsolePage.java:279)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:101)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1196)
+	at org.eclipse.swt.custom.StyledText.setCaretOffset(StyledText.java:8795)
+	at org.eclipse.swt.custom.StyledText.doSelectionCursorPrevious(StyledText.java:3302)
+	at org.eclipse.swt.custom.StyledText.doCursorPrevious(StyledText.java:2539)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7093)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6061)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+22:37:28,700 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:37:41,839 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:38:18,780 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:38:18,844 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:38:18,880 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:18,923 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:18,965 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,008 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,051 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,093 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,136 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,182 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,228 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,274 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,323 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,365 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:38:19,836 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:38:19,868 F: (BackendManager.java:87) : create execution backend PL8
+22:38:19,868 F: (BackendFactory.java:54) : Create backend PL8
+22:38:19,886 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:38:19,906 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:38:19,909 F: (OtpNodeProxy.java:220) : connected!
+22:38:20,085 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:38:20,085 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c22a473@user}
+22:38:20,510 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@48f58c66
+22:38:20,642 F: (BackendManager.java:87) : create execution backend PL8
+22:38:20,642 F: (BackendFactory.java:54) : Create backend PL8
+22:38:20,643 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:38:20,643 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:38:20,647 F: (OtpNodeProxy.java:220) : connected!
+22:38:20,813 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:38:20,815 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c22a763@user}
+22:38:21,248 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@1e38720f
+22:38:45,200 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:38:53,392 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:39:35,459 F: (ErlParser.java:335) : unknown: other
+22:39:37,246 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:39:37,309 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:39:37,334 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,376 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,422 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,464 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,508 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,551 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,596 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,641 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,686 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,732 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,780 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,824 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,866 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:37,908 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:39:48,533 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:39:48,544 F: (BackendManager.java:87) : create execution backend PL8
+22:39:48,544 F: (BackendFactory.java:54) : Create backend PL8
+22:39:48,545 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:39:48,545 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:39:48,548 F: (OtpNodeProxy.java:220) : connected!
+22:39:48,648 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:39:48,723 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c23fec1@user}
+22:39:49,149 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@a0af2ac
+22:40:33,815 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:40:41,568 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:41:02,001 F: (ErlParser.java:335) : unknown: other
+22:41:02,802 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:41:02,867 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:41:02,895 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:02,937 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:02,980 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,022 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,069 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,114 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,158 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,205 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,251 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,296 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,341 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,384 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,428 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,471 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:03,516 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:11,611 F: (ErlParser.java:335) : unknown: other
+22:41:14,628 F: (ErlParser.java:335) : unknown: other
+22:41:15,737 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:41:15,827 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:15,870 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:15,915 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:15,959 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,002 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,048 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,097 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,142 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,184 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,227 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,269 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,315 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,371 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,415 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:16,460 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:41:17,932 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:41:17,947 F: (BackendManager.java:87) : create execution backend PL8
+22:41:17,947 F: (BackendFactory.java:54) : Create backend PL8
+22:41:17,948 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:41:17,948 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:41:17,952 F: (OtpNodeProxy.java:220) : connected!
+22:41:18,052 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:41:18,124 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c255bfc@user}
+22:41:18,553 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@483f21fd
+22:41:25,914 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:41:53,602 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:43:21,073 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:43:21,138 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,180 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,222 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,265 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,309 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,354 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,400 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,447 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,490 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,534 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,577 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,624 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,670 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,716 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,763 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:21,818 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:43:26,656 F: (ErlParser.java:335) : unknown: other
+22:43:27,976 F: (ErlParser.java:335) : unknown: other
+22:43:28,749 F: (ErlParser.java:335) : unknown: other
+22:43:50,256 F: (ErlParser.java:335) : unknown: other
+22:46:34,177 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:46:34,245 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,287 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,330 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,373 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,415 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,457 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,500 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,548 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,601 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,647 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,693 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,744 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,787 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,829 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,872 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:34,918 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:46:37,752 F: (ErlParser.java:335) : unknown: other
+22:48:00,668 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:48:09,932 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:48:10,006 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,050 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,092 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,137 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,180 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,222 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,267 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,312 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,359 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,424 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,470 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,512 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,555 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,597 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,641 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:10,687 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,082 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:48:25,152 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,199 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,242 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,285 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,328 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,371 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,413 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,456 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,500 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,545 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,590 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,636 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,681 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,726 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,773 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:25,819 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:48:27,470 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:48:27,514 F: (BackendManager.java:87) : create execution backend PL8
+22:48:27,515 F: (BackendFactory.java:54) : Create backend PL8
+22:48:27,517 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:48:27,518 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:48:27,526 F: (OtpNodeProxy.java:220) : connected!
+22:48:27,698 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:48:27,698 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2be9fc@user}
+22:48:28,128 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@25e29ac4
+22:49:14,163 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:49:14,235 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,278 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,321 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,374 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,424 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,467 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,509 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,552 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,603 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,646 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,688 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,732 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,776 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,820 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,865 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,909 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:14,953 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:49:45,386 F: (ErlParser.java:335) : unknown: other
+22:49:46,161 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:49:46,225 S: (ErlParser.java:109) : error when parsing /home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/PL8/src/ex1.erl: {error,function_clause,[{erlide_np_util,extract_comments,[{error,badarg,[{erlide_scanner_server,server_cmd,3,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_scanner_server.erl"},{line,36}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,68}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]},-1,[],[]],[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np_util.erl"},{line,20}]},{erlide_np,parse,1,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_np.erl"},{line,18}]},{erlide_noparse,do_parse,5,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,123}]},{erlide_noparse,reparse,2,[{file,"/media/home/jenkins/jobs/erlide_kernel-erlang/branches/master/workspace/ide/_build/default/lib/erlide_ide_core/src/erlide_noparse.erl"},{line,69}]},{rpc,'-handle_call_call/6-fun-0-',5,[{file,"rpc.erl"},{line,197}]}]}
+22:49:46,250 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,294 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,337 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,380 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,423 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,465 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,508 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,554 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,599 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,647 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,691 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,738 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,782 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,824 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,869 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,916 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:46,960 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:49:47,635 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex1.erl
+22:49:47,652 F: (BackendManager.java:87) : create execution backend PL8
+22:49:47,656 F: (BackendFactory.java:54) : Create backend PL8
+22:49:47,660 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:49:47,665 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:49:47,669 F: (OtpNodeProxy.java:220) : connected!
+22:49:47,770 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:49:47,846 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2d230f@user}
+22:49:48,270 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@6ebf791b
+22:49:48,506 F: (BackendManager.java:87) : create execution backend PL8
+22:49:48,506 F: (BackendFactory.java:54) : Create backend PL8
+22:49:48,507 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:49:48,507 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:49:48,509 F: (OtpNodeProxy.java:220) : connected!
+22:49:48,610 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:49:48,679 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2d265b@user}
+22:49:49,110 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@5e418acf
+22:50:05,438 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:50:05,521 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,566 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,609 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,651 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,696 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,744 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,796 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,839 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,882 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:05,967 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,023 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,068 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,112 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,159 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,202 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,246 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,289 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,332 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:06,375 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:09,415 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:50:09,511 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,554 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,597 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,639 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,683 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,726 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,769 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,812 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,855 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,899 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,942 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:09,985 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,029 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,074 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,118 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,161 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,205 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,250 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:10,293 F: (BuilderHelper.java:554) : :: loading ex1 in PL8@user
+22:50:13,653 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:50:13,677 F: (BackendManager.java:87) : create execution backend PL8
+22:50:13,677 F: (BackendFactory.java:54) : Create backend PL8
+22:50:13,681 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:50:13,693 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:50:13,700 F: (OtpNodeProxy.java:220) : connected!
+22:50:13,801 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:50:13,876 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2d88b2@user}
+22:50:14,302 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@7c10fdb4
+22:50:18,514 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:50:31,315 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:50:31,392 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,435 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,477 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,522 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,564 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,612 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,658 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,703 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,749 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,797 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,843 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,886 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,929 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:31,971 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,014 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,056 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,099 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,143 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,189 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,233 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:50:32,419 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:50:32,433 F: (BackendManager.java:87) : create execution backend PL8
+22:50:32,433 F: (BackendFactory.java:54) : Create backend PL8
+22:50:32,434 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:50:32,434 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:50:32,437 F: (OtpNodeProxy.java:220) : connected!
+22:50:32,538 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:50:32,612 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2dd1f2@user}
+22:50:33,038 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@54fde296
+22:50:41,643 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:50:42,108 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:50:42,282 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:52:18,239 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:52:18,254 F: (BackendManager.java:87) : create execution backend PL8
+22:52:18,254 F: (BackendFactory.java:54) : Create backend PL8
+22:52:18,254 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:52:18,255 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:52:18,270 F: (OtpNodeProxy.java:220) : connected!
+22:52:18,371 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:52:18,445 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2f6f4e@user}
+22:52:18,871 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@27a5cd31
+22:52:26,659 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:52:26,684 F: (BackendManager.java:87) : create execution backend PL8
+22:52:26,684 F: (BackendFactory.java:54) : Create backend PL8
+22:52:26,685 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:52:26,688 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:52:26,693 F: (OtpNodeProxy.java:220) : connected!
+22:52:26,867 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:52:26,868 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c2f903e@user}
+22:52:27,294 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@5b0a5db8
+22:54:00,030 F: (ErlParser.java:335) : unknown: other
+22:54:00,031 F: (ErlParser.java:335) : unknown: other
+22:54:00,031 F: (ErlParser.java:335) : unknown: other
+22:54:00,031 F: (ErlParser.java:335) : unknown: other
+22:54:00,031 F: (ErlParser.java:335) : unknown: other
+22:54:00,031 F: (ErlParser.java:335) : unknown: other
+22:54:12,761 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:54:12,837 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:12,880 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:12,927 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:12,971 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,014 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,056 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,101 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,146 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,192 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,238 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,288 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,339 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,381 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,424 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,467 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,512 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,560 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,606 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,652 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,695 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,738 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,781 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:13,824 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:54:16,231 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:54:16,269 F: (BackendManager.java:87) : create execution backend PL8
+22:54:16,269 F: (BackendFactory.java:54) : Create backend PL8
+22:54:16,274 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:54:16,281 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:54:16,291 F: (OtpNodeProxy.java:220) : connected!
+22:54:16,468 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:54:16,468 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c313c58@user}
+22:54:16,892 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@5ee9d5c
+22:55:41,366 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:55:41,434 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,476 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,519 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,568 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,610 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,654 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,698 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,744 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,789 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,836 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,879 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,922 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:41,966 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,012 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,060 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,107 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,153 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,198 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,266 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,311 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,354 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,397 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,440 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:42,487 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:55:44,387 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:55:44,400 F: (BackendManager.java:87) : create execution backend PL8
+22:55:44,400 F: (BackendFactory.java:54) : Create backend PL8
+22:55:44,401 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:55:44,404 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:55:44,420 F: (OtpNodeProxy.java:220) : connected!
+22:55:44,596 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:55:44,596 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c329491@user}
+22:55:45,021 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@1405ff8b
+22:56:49,536 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:56:49,580 F: (BackendManager.java:87) : create execution backend PL8
+22:56:49,581 F: (BackendFactory.java:54) : Create backend PL8
+22:56:49,610 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:56:49,612 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:56:49,617 F: (OtpNodeProxy.java:220) : connected!
+22:56:49,792 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:56:49,792 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c33934b@user}
+22:56:50,218 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@73d52075
+22:56:57,878 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:57:05,941 F: (AbstractErlContentAssistProcessor.java:159) : no results
+22:58:09,733 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:58:09,801 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:09,847 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:09,891 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:09,934 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:09,976 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,020 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,062 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,105 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,153 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,198 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,243 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,289 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,331 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,374 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,417 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,460 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,504 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,550 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,596 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,639 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,682 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,726 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,772 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,818 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,864 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:10,945 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:12,203 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:58:12,248 F: (BackendManager.java:87) : create execution backend PL8
+22:58:12,249 F: (BackendFactory.java:54) : Create backend PL8
+22:58:12,250 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:58:12,253 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:58:12,257 F: (OtpNodeProxy.java:220) : connected!
+22:58:12,422 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:58:12,422 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c34d61a@user}
+22:58:12,857 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@4f1f2cf9
+22:58:15,774 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+22:58:15,840 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:15,885 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:15,936 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:15,980 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,022 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,068 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,115 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,157 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,200 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,245 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,289 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,333 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,376 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,418 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,463 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,510 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,553 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,603 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,646 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,690 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,741 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,786 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,834 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,877 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,920 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:16,963 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:17,009 F: (BuilderHelper.java:554) : :: loading ex2 in PL8@user
+22:58:18,299 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex2.erl
+22:58:18,332 F: (BackendManager.java:87) : create execution backend PL8
+22:58:18,335 F: (BackendFactory.java:54) : Create backend PL8
+22:58:18,348 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:58:18,353 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:58:18,364 F: (OtpNodeProxy.java:220) : connected!
+22:58:18,466 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:58:18,540 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c34edec@user}
+22:58:18,967 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@5ddc7ea9
+22:58:19,100 F: (BackendManager.java:87) : create execution backend PL8
+22:58:19,100 F: (BackendFactory.java:54) : Create backend PL8
+22:58:19,100 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+22:58:19,101 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+22:58:19,103 F: (OtpNodeProxy.java:220) : connected!
+22:58:19,272 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+22:58:19,273 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c34f0dd@user}
+22:58:19,704 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@36c5805f
+23:00:35,533 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:00:35,598 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,639 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,684 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,727 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,772 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,814 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,857 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,901 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,944 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:35,989 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,037 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,080 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,126 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,172 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,218 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,264 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,313 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,363 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,409 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,455 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,501 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,547 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,593 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,638 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,684 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,730 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,778 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,824 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:00:36,869 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,654 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:02:42,733 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,776 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,818 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,861 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,903 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,948 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:42,994 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,041 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,086 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,130 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,173 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,216 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,259 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,302 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,345 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,391 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,436 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,481 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,523 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,566 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,609 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,651 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,696 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,742 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,792 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,836 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,880 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,922 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:02:43,965 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:05:20,792 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:05:34,460 F: (ErlParser.java:335) : unknown: other
+23:05:35,285 F: (ErlParser.java:335) : unknown: other
+23:05:50,770 F: (ErlParser.java:335) : unknown: other
+23:05:51,790 F: (ErlParser.java:335) : unknown: other
+23:05:52,648 F: (ErlParser.java:335) : unknown: other
+23:05:52,816 F: (AbstractErlContentAssistProcessor.java:159) : no results
+23:05:53,216 F: (ErlParser.java:335) : unknown: other
+23:05:53,237 W: (AbstractErlContentAssistProcessor.java:165) : null
+java.lang.NullPointerException
+	at org.erlide.util.erlang.TypeConverter.failConversion(TypeConverter.java:606)
+	at org.erlide.util.erlang.TypeConverter.java2erlang(TypeConverter.java:429)
+	at org.erlide.runtime.internal.rpc.OtpRpc.convertArgs(OtpRpc.java:437)
+	at org.erlide.runtime.internal.rpc.OtpRpc.sendRpcCall(OtpRpc.java:307)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:148)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:168)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:242)
+	at org.erlide.engine.internal.services.codeassist.ErlideContextAssist.getVariables(ErlideContextAssist.java:34)
+	at org.erlide.engine.internal.services.codeassist.ErlangCompletionService.getVariables(ErlangCompletionService.java:274)
+	at org.erlide.engine.internal.services.codeassist.ErlangCompletionService.addCompletions(ErlangCompletionService.java:385)
+	at org.erlide.engine.internal.services.codeassist.ErlangCompletionService.computeCompletions(ErlangCompletionService.java:175)
+	at org.erlide.ui.editors.erl.completion.AbstractErlContentAssistProcessor.computeCompletionProposals(AbstractErlContentAssistProcessor.java:142)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2014)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4777)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2013)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2010)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:575)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeFilteredProposals(CompletionProposalPopup.java:1521)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:364)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+23:05:54,640 F: (ErlParser.java:335) : unknown: other
+23:05:54,999 F: (ErlParser.java:335) : unknown: other
+23:05:56,583 F: (ErlParser.java:335) : unknown: other
+23:08:54,266 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:12:25,973 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:12:36,830 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:13:00,812 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:13:00,882 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:00,925 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:00,970 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,012 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,057 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,103 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,149 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,197 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,266 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,310 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,353 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,396 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,439 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,485 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,530 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,576 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,622 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,668 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,714 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,760 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,808 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,865 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,908 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,950 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:01,994 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:02,040 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:02,086 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:02,130 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:02,173 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:11,919 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex3.erl
+23:13:11,933 F: (BackendManager.java:87) : create execution backend PL8
+23:13:11,933 F: (BackendFactory.java:54) : Create backend PL8
+23:13:11,934 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:13:11,934 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:13:11,938 F: (OtpNodeProxy.java:220) : connected!
+23:13:12,039 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:13:12,113 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c42907e@user}
+23:13:12,539 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@6828ab3c
+23:13:12,689 F: (BackendManager.java:87) : create execution backend PL8
+23:13:12,689 F: (BackendFactory.java:54) : Create backend PL8
+23:13:12,690 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:13:12,690 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:13:12,694 F: (OtpNodeProxy.java:220) : connected!
+23:13:12,794 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:13:12,803 F: (BackendManager.java:87) : create execution backend PL8
+23:13:12,860 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c429372@user}
+23:13:13,294 F: (BackendFactory.java:54) : Create backend PL8
+23:13:13,294 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@480dd6de
+23:13:13,295 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:13:13,338 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:13:13,341 F: (OtpNodeProxy.java:220) : connected!
+23:13:13,507 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:13:13,510 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c4295cf@user}
+23:13:13,942 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@723c252f
+23:13:35,576 F: (AbstractErlContentAssistProcessor.java:159) : no results
+23:13:42,806 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:13:42,883 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:42,926 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:42,968 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,013 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,055 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,103 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,149 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,195 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,242 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,308 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,354 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,400 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,447 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,491 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,533 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,575 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,619 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,662 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,706 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,750 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,795 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,839 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,883 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,929 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:43,972 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,015 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,059 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,101 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,144 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,190 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,239 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex3.erl
+23:13:44,251 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,264 F: (BackendManager.java:87) : create execution backend PL8
+23:13:44,264 F: (BackendFactory.java:54) : Create backend PL8
+23:13:44,264 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:13:44,265 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:13:44,268 F: (OtpNodeProxy.java:220) : connected!
+23:13:44,293 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:13:44,441 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:13:44,441 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c430ec8@user}
+23:13:44,869 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@429e2818
+23:14:29,170 F: (BackendManager.java:87) : create execution backend PL8
+23:14:29,171 F: (BackendFactory.java:54) : Create backend PL8
+23:14:29,171 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:14:29,171 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:14:29,179 F: (OtpNodeProxy.java:220) : connected!
+23:14:29,280 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:14:29,310 F: (BackendManager.java:87) : create execution backend PL8
+23:14:29,347 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c43be33@user}
+23:14:29,781 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@3296a12
+23:14:29,781 F: (BackendFactory.java:54) : Create backend PL8
+23:14:29,781 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:14:29,782 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:14:29,786 F: (OtpNodeProxy.java:220) : connected!
+23:14:29,956 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:14:29,960 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c43c096@user}
+23:14:30,387 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@75479eb5
+23:15:32,790 F: (InternalBuilder.java:206) : Will compile 1 resource(s)
+23:15:32,869 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:32,913 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:32,960 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,006 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,052 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,096 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,139 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,183 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,230 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,276 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,325 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,372 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,416 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,459 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,503 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,549 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,603 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,649 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,696 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,739 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,785 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,850 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,893 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,936 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:33,981 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,027 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,071 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,114 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,158 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,201 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,244 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,288 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,331 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,375 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:15:34,420 F: (BuilderHelper.java:554) : :: loading ex3 in PL8@user
+23:16:01,760 F: (ErlangNodeLaunchShortcut.java:116) : ** Launch :: ex3.erl
+23:16:01,779 F: (BackendManager.java:87) : create execution backend PL8
+23:16:01,780 F: (BackendFactory.java:54) : Create backend PL8
+23:16:01,781 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:16:01,792 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:16:01,796 F: (OtpNodeProxy.java:220) : connected!
+23:16:01,897 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:16:01,970 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c4527f6@user}
+23:16:02,397 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@24f41d31
+23:16:02,726 F: (BackendManager.java:87) : create execution backend PL8
+23:16:02,726 F: (BackendFactory.java:54) : Create backend PL8
+23:16:02,726 F: (OtpNodeProxy.java:306) : Runtime PL8@user starting
+23:16:02,727 F: (OtpNodeProxy.java:213) : PL8@user: waiting connection to peer... 
+23:16:02,730 F: (OtpNodeProxy.java:220) : connected!
+23:16:02,898 F: (OtpNodeProxy.java:311) : Runtime PL8@user running
+23:16:02,898 F: (LogEventHandler.java:27) : info: {"Monitoring java node",jerlide_c452ba6@user}
+23:16:03,331 F: (ErlConsoleManager.java:51) : console ADDED to org.erlide.backend.api.BackendData@4837e111
+23:17:46,188 F: (AbstractErlContentAssistProcessor.java:159) : no results
+23:20:07,886 F: (OtpNodeProxy.java:316) : Runtime PL8@user stopping
+23:20:07,889 F: (OtpNodeProxy.java:272) : Runtime PL8@user terminated

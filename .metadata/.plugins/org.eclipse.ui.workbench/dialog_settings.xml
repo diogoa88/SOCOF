@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="113" key="DIALOG_X_ORIGIN"/>
-		<item value="181" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="113"/>
+		<item key="DIALOG_Y_ORIGIN" value="181"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="939" key="dialogHeight"/>
-		<item value="1149" key="dialogWidth"/>
+		<item key="dialogHeight" value="939"/>
+		<item key="dialogWidth" value="1149"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -14,6 +14,12 @@
 		<list key="orderedProviders">
 		</list>
 		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.erlide.ui.wizards.ErlangSourceFile"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.erlide.ui.wizards.newWizards"/>
 		</list>
 	</section>
 </section>
