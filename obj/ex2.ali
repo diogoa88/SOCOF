@@ -1,0 +1,69 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_RECURSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U ex2%b			ex2.adb			2f0c373b NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20180525052300 76789da1 ada%s
+D a-except.ads		20180525052301 291912d5 ada.exceptions%s
+D a-inteio.ads		20180525052302 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180525052259 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180525052300 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20180525052300 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20180525052301 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20180525052300 119b8fb3 ada.streams%s
+D a-tags.ads		20180525052302 491b781d ada.tags%s
+D a-textio.ads		20180525052302 881db35a ada.text_io%s
+D a-tiinio.ads		20180525052300 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180525052301 0e9b276f ada.unchecked_conversion%s
+D ex2.adb		20190521223104 52b230d9 ex2%b
+D interfac.ads		20180525052300 5ab55268 interfaces%s
+D i-cstrea.ads		20180525052259 e53d8b8e interfaces.c_streams%s
+D system.ads		20180525052301 4635ec04 system%s
+D s-crtl.ads		20180525052259 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180525052301 54135002 system.exception_table%s
+D s-ficobl.ads		20180525052302 078245e4 system.file_control_block%s
+D s-parame.ads		20180525052302 48ec542b system.parameters%s
+D s-secsta.ads		20180525052301 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180525052300 a7318a92 system.soft_links%s
+D s-stache.ads		20180525052302 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180525052301 09bd3940 system.standard_library%s
+D s-stoele.ads		20180525052302 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180525052300 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180525052301 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180525052301 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r5 4r6 4r27 5r5 5r26
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|4w10 5r9
+X 5 a-numeri.ads
+16K13*Numerics 32e17 13|1r10 2r9
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 13|1w19 2r18
+X 10 a-textio.ads
+49K13*Text_IO 471e16 13|4w31 5r30
+242U14*Put 13|24s10 26s10
+263U14*Put_Line 13|21s10 30s10
+X 11 a-tiinio.ads
+56U14*Get 13|22s10[3|18]
+66U14*Put 13|25s10[3|18] 28s13[3|18]
+X 13 ex2.adb
+7U11*ex2 7b11 33l5 33t8
+8i4 Number{integer} 22m14 23r20 25r14 27r13 28r22
+11V16 Fact{integer} 11b16 11>22 16s22 18l11 18t15 28s17
+11i22 N{integer} 13r13 16r20 16r27
+

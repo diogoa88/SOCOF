@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__sqrt-adb.o
+[PROJECT FILES]
+/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/pl10.gpr
+20190521220006
+[BOUND OBJECT FILES]
+/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/obj/sqrt-adb.o
+[GENERATED SOURCE FILES]
+b__sqrt-adb.ads
+b__sqrt-adb.adb
+b__sqrt-adb.ali
+[RESULTING OPTIONS]
+-L/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/obj/
+-L/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/obj/
+-L/home/user/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/
+-static
+-static-libgcc
+/home/user/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/libgnat.a
+-ldl
