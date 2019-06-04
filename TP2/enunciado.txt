@@ -1,0 +1,12 @@
+Assessment Exercise 2: Concurrency with synchronous messages in ADA
+
+Concurrency with synchronous messages
+
+A flooding detection system is made of a set of sensors caple of detecting water and a central coordination system. Create an ADA program that simulates sensors and a central coordinator as described next:
+
+.Tasks to implement sensors that can be queried and return if they detect water (or not).
+.A central task that queries sensors in periods of 5 seconds and is able to detect both if water was detected and if there is a sensor malfunction (not answering queries).
+.Communication between tasks using rendezvous.
+
+Submission deadline: 9th of June 2019
+

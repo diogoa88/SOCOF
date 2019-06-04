@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__ex2.o
+[PROJECT FILES]
+/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/TP2/ex2.gpr
+20190604170546
+[BOUND OBJECT FILES]
+/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/TP2/obj/ex2.o
+[GENERATED SOURCE FILES]
+b__ex2.ads
+b__ex2.adb
+b__ex2.ali
+[RESULTING OPTIONS]
+-L/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/TP2/obj/
+-L/home/user/Dropbox/Mestrado/1_ano/2_semestre/SOCOF/TP2/obj/
+-L/home/user/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/
+-static
+-static-libgcc
+/home/user/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/libgnarl.a
+/home/user/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/libgnat.a
+-lpthread
+-lrt
+-ldl
